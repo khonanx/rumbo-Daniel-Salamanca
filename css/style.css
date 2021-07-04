@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/bg-header.png);
+    background-size: cover;
+}
+.container {
+    
+    width: 60%;
+    margin: 0 auto;
+    align-content: center;
+    
+}
+nav{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+nav .logo{
+    width: 30%;
+    display: inline-block;
+}
+nav ul{
+    width: 40%;
+    display: inline-block;
+    display: flex;
+    justify-content: end;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+    border-bottom: 2px solid transparent ; 
+}
+nav ul li a:hover {
+    border-bottom: 2px solid #ffffff ;
+
+}
+nav ul li a {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+#hero{
+    padding-top: 180px;
+    text-align: center;
+}
+#hero img:hover {
+    transition: .4s;
+}
+#hero img:hover{
+    transform: scale(1.1) rotate(-360deg);
+}
+#hero h2{
+    font-size: 30px;
+    color: #e8f00c;
+    margin: 0;
+    padding: 0;
+}
+#hero p{
+    font-size: 15px;
+    color: #ffffff;
+    margin: 5;
+    padding: 0;
+}
+#hero button{
+    background-color: #e8f00c;
+    font-size: 20px;
+    color: #999999;
+    padding: 9px 20px;
+    border-radius: 10px;
+    border: 0 transparent;
+    margin-top: 15px;
+}
+#hero button:hover{
+    transition: .4s;
+}
+#hero button:hover{
+    transform: scale(1.1);
+    background-color: #999999;
+    color: #e8f00c;
+}
+
+#planes{
+    width: 100%;
+    background: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+#planes .container h2{
+    font-size: 35px;
+}
+
+#planes .container p{
+    font-size: 15px;
+}
+
+#planes .container .row{
+    display: flex;
+    justify-content:  space-around;
+    margin-top: 70px;
+}
+
+#planes .container .row .item-planes{
+    position: relative;
+}
+
+
+#planes .container .row .item-planes h2{
+    color: #e8f00c;
+    font-size: 25px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+}
+
+/* inicio DESTINOS */
+#destinos{
+     width: 100%;
+     position: relative;
+     background: url(../img/bg-destinos.png);
+     padding: 100px 0 40px;
+     text-align: center;
+}
+#destinos .container .row {
+    display: flex;
+    justify-content: space-around; 
+}
+#destinos h2{
+    color: #e8f00c;
+    font-size: 50px ;
+}
+#destinos .container .row .item-destinos h3{
+
+    color: #ffffff;
+    font-size: 25px;
+}
+#destinos .container .row .item-destinos img{
+    transition: .8s;  
+}
+#destinos .container .row .item-destinos:hover img{
+    transform: rotate(360deg);
+}
+
+
+/* inicio estilos contacto */
+#contacto {
+    background: #e8f00c;
+    text-align: center;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+#contacto h2{
+    font-size: 35px;
+}
+#contacto p{
+    font-size: 18px;
+}
+ .campo-f{
+    width: 300px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    margin: 10px 10px;
+    border: 1px solid #999999;
+}
+select{
+    width: 325px !important;
+    color: #757575;
+}
+ form button{
+    background: #898d0e;
+    color: #ffffff;
+    padding: 12px 50pz;
+    font-size: 15px;
+    margin-top: 30px;
+    border-radius: 3px;
+    border: 1px solid #999999;
+}
+
+/* footer */
+footer{
+    color: #ffffff;
+    background: #000000;
+    text-align: center;
+    padding: 60px 0 80pz;
+    font-size: 15px;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+    
+
+    
+
